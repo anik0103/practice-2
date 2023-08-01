@@ -1,0 +1,278 @@
+.top {
+    background-color: aqua;
+    width: 100%;
+    height: 20%;
+    position: relative;
+    top: -21px;
+}
+
+.left {
+    background-color: darkseagreen;
+    width: 30%;
+    height: 37rem;
+    /* margin:-7px ;
+    padding: 1px;
+    margin-top: 18px; */
+    margin-top: -42px;
+}
+
+.right {
+    background-color: aquamarine;
+    width: 70%;
+    /* display: flex;
+    float: right;
+    padding: 9px;
+    margin: left 10px;
+    height: 44rem;
+    margin-top: 18px; */
+    height: 37rem;
+    float: right;
+    margin-top: -42px;
+}
+
+.nav-style {
+    background-color: aqua;
+    padding: 15px;
+}
+
+.space {
+    margin-right: 50px;
+    color: black;
+}
+
+.store-style {
+    position: relative;
+    top: 10px;
+    background-color: coral;
+}
+
+.it {
+    float: left;
+    margin: 26px;
+    width: 167px;
+}
+
+.bg {
+    background-color: rgb(66, 248, 96);
+}
+
+.fa {
+    padding: 3px;
+    text-align: center;
+    margin: 2px 7px;
+    font-size: 30px;
+    width: 50px;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    float: right;
+    /* right: 50px; */
+}
+
+/* .fa-twitter {  
+    background: #55ACEE;  
+    color: white;  
+  }   */
+/* .fa-pinterest {  
+    background: #cb2027;  
+    color: white;  
+  }   */
+/* .fa-linkedin {  
+    background: #007bb5;  
+    color: white;  
+  }   */
+.fa-instagram {
+    background: #125688;
+    color: white;
+    float: right;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+    float: right;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+    float: right;
+}
+
+/* .fa-snapchat-ghost {  
+    background: #fffc00;  
+    color: white;  
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
+  }   */
+/* .fa-skype {  
+    background: #00aff0;  
+    color: white;  
+  }   */
+.fa:hover {
+    opacity: 0.9;
+}
+.img-size{
+    width: 100%;
+    /* height: 100px; */
+}
+.img{
+    background: #000;
+}
+details{
+    text-align: center;
+
+}
+/* css of email */
+.border p{
+    /* background-color: #bb0000; */
+    /* color: aqua; */
+    border:#3B5998;
+    border-width: 2px;
+    border-style:solid ;
+    /* padding: 1px; */
+    /* margin: 60px; */
+    /* margin-bottom: 10px; */
+    /* margin-top: 1px; */
+    text-align: center;
+    margin: auto;
+    width: 77%;
+    
+}
+.rick{
+    width: 40%;
+    /* margin-left: 350px; */
+    margin: auto;
+    margin-top: 80px;
+    border: #f7f2f2;
+    border-style: solid;
+    /* padding-bottom: 30px; */
+    /* padding-right: 50px; */
+    /* padding-left: 50px; */
+    /* padding-top: 30px; */
+}
+/* .img-email{
+    padding-left: 400px;
+    
+} */
+.img-email{
+    /* padding-left:225px ; */
+    text-align: center;
+}
+.letter-t{
+    margin-left: 60px;
+    /* position:relative; */
+    /* left: 60px; */
+}
+/* css of email 2 */
+.email2{
+    border: #d1d2d3;
+    /* background-origin: 2px; */
+    border-width: 1px;
+    border-style: solid;
+    width: 30%;
+    /* position: relative; */
+    /* margin-left: 450px; */
+    margin: auto;
+    margin-top: 165px;
+}
+.red{
+    /* background-color: rgb(191, 191, 201); */
+    /* border-style: groove; */
+    /* margin-left: 1px; */
+    float: right;
+    color: #f6f7fa;
+    font-size: 20px;
+    /* top: 5px; */
+    cursor: pointer;
+    /* position: absolute; */
+    z-index: 1;
+    height: 25px;
+    width: 25px;
+    /* line-height: 25px; */
+    text-align: center;
+    background-color: #0995f1;
+    border-radius: 50%;
+
+}
+.red:hover {
+    background-color: #bb0000;
+    transition: all 0.4s;
+    cursor: pointer;
+
+}
+.pra{
+    margin: 50px;
+    text-align: center;
+}
+.img2{
+    /* margin-left: 160px; */
+    /* margin: auto; */
+    text-align: center;
+    margin-top: 20px;
+}
+.email2 h2{
+    text-align: center;
+}
+
+
+
+
+/* css of alert */
+
+
+
+.alert-body{
+    width: 30%;
+    border: #f5f7f8;
+    border-style: solid;
+    padding: 17px;
+    /* margin-left: 425px; */
+    margin: auto;
+    margin-top: 120px;
+
+}
+.alert-body span{
+    float: right;
+    position: relative;
+    bottom: 20px;
+    left: 16px;
+}
+.alert-img{
+    /* margin-left: 180px; */
+    /* margin-top: 15px; */
+    /* margin: auto; */
+    text-align: center;
+}
+.alert-body h3{
+    text-align: center;
+    color: rgb(170, 72, 170);
+}
+.alert-p{
+    text-align: center;
+}
+#yes{
+    background-color: rgb(145, 17, 145);
+    color: aliceblue;
+    border-radius: 25px;
+    padding: 5px 20px;
+}
+#no{
+    background-color: rgb(58, 5, 58);
+    color: aliceblue;
+    border-radius: 25px;
+    padding: 5px 20px;
+}
+#yes:hover{
+    background-color: rgb(73, 3, 73);
+    transition: all 0.4s;
+}
+#no:hover{
+    background-color: rgb(219, 8, 219);
+}
+.alt-but{
+    /* margin-left: 125px; */
+    text-align: center;
+
+}

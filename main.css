@@ -1,0 +1,30 @@
+/* payment css */
+.payment-body{
+    /* border: 2px solid black; */
+    /* background-color:cadetblue; */
+    width: 80%;
+    display: flex;
+    margin: auto;
+    
+}
+.emp{
+    border: 2px solid black;
+    /* margin: auto; */
+    width: 50%;
+    /* text-align: center; */
+}
+.emp_plus{
+    border: 2px solid black;
+    /* margin: auto; */
+    margin-left: 50px;
+    width: 50%;
+}
+.pay-head{
+    text-align: center;
+}
+#center{
+    text-align: center;
+}
+.foot{
+    text-align: center;
+}
