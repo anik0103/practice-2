@@ -9,9 +9,13 @@
 }
 .emp{
     border: 2px solid black;
-    /* margin: auto; */
+    margin: auto;
     width: 50%;
     /* text-align: center; */
+
+}
+.emp h3{
+    text-align: center;
 }
 .emp_plus{
     border: 2px solid black;
@@ -22,9 +26,9 @@
 .pay-head{
     text-align: center;
 }
-#center{
-    text-align: center;
-}
 .foot{
     text-align: center;
+}
+.emp ul{
+    margin-left: 30px;
 }
