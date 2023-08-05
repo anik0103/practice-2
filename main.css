@@ -1,36 +1,14 @@
-/* payment css */
-.emp {
-    border: 2px solid black;
-    /* margin: auto;
-    width: 50%; */
-    /* text-align: center; */
-    width: 356px;
-    height: 777px;
-    flex-shrink: 0;
+.sub-body {
+    border: 1px solid violet;
+    width: 1440px;
+    margin: auto;
 }
 
-.emp h3 {
+.sub-body .head {
     text-align: center;
 }
 
-.emp_plus {
-    /* border: 2px solid black;
-    /* margin: auto; */
-    /* margin-left: 50px;
-    width: 50%; */
-    width: 444px;
-    height: 828px;
-    flex-shrink: 0;
-    border-radius: 15px;
-    border: 1px solid #7E50A7;
-    background: #FFF;
-
-    /* 2 */
-    box-shadow: 0px 65px 65px 0px rgba(94, 139, 255, 0.15);
-}
-
-.pay-head {
-    /* text-align: center; */
+.head h6 {
     color: #FFAE1A;
     font-family: Poppins;
     font-size: 18px;
@@ -39,49 +17,107 @@
     line-height: 16px;
     /* 88.889% */
     text-transform: uppercase;
-    width: 91px;
+    /* width: 91px; */
+}
+
+.head p {
+    color: #1A1A1A;
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px;
+    /* 110% */
+    border: 1px solid black;
+    width: 560px;
+    /* text-align: center; */
+    justify-content: center;
+    display: inline-flex;
+}
+
+.emp {
+    border: 1px solid red;
+    width: 356px;
+    height: 777px;
+    flex-shrink: 0;
+    margin-left: 287px;
+}
+
+.emp-plus {
+    /* border: 1px solid green; */
+    width: 444px;
+    height: 828px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 1px solid #7E50A7;
+    background: #FFF;
+    margin-left: 88px;
+    /* float:left; */
+    /* 2 */
+    box-shadow: 0px 65px 65px 0px rgba(94, 139, 255, 0.15);
+}
+
+.sub-part {
+    display: flex;
+}
+
+.settings {
+    text-align: center;
+}
+
+.hand {
+    position: relative;
+    bottom: 90px;
+}
+
+.heading {
+    color: #1A1A1A;
+    /* text-align: center; */
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 55px;
+    /* 229.167% */
+    width: 136px;
+    justify-content: center;
+    /* display: inline-flex; */
+    margin: auto;
+}
+
+.check {
+    width: 15px;
+    height: 220px;
+    flex-shrink: 0;
+    line-height: 56px;
+    margin-top: 11px;
+    /* margin: auto; */
+    margin-right: auto;
+}
+
+.rules {
+    display: flex;
+}
+
+.benifits {
+    color: #8F8F8F;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    /* 300% */
+    width: 329px;
+    /* margin: auto; */
 }
 
 .foot {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 35px;
 }
 
-.emp ul {
-    margin-left: 30px;
-}
-
-.img-pay {
-    text-align: center;
-}
-
-.hop {
-    position: relative;
-    bottom: 86px;
-}
-
-.list ul {
-    /* list-style: none; */
-    list-style-image: url('check10.png')
-}
-
-.list2 ul {
-    list-style-image: url('check10.png')
-}
-
-/* orginal css */
-.payment-box {
-    width: 1440px;
-    height: 1488px;
-    background-color: white;
-    position: relative;
-    left: 200px;
-    border: 3px solid bisque;
-}
-
-.plan {
-    /* width: 560px; */
-    color: #1A1A1A;
+#rupees {
+    color: #FFAE1A;
     text-align: center;
     font-family: Poppins;
     font-size: 50px;
@@ -90,7 +126,90 @@
     line-height: 55px;
     /* 110% */
 }
-.side{
-    display: flex;
-    background-color: #FFF;
+
+#Month1 {
+    color: #8F8F8F;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 55px;
+    /* 305.556% */
 }
+
+#year {
+    color: #1A1A1A;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 114.286% */
+    text-transform: capitalize;
+}
+
+#last {
+    color: #7d26c973;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 160px;
+    height: 37px;
+    flex-shrink: 0;
+}
+
+.btn-1 {
+    width: 237px;
+    /* height: 45px; */
+    flex-shrink: 0;
+    border-radius: 35px;
+    /* opacity: 0.1; */
+    background: #e3dde9;
+    /* border: 1px solid #7E50A7; */
+    margin: auto;
+    padding: 10px;
+}
+
+#cancle {
+    color: #8F8F8F;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 123.077% */
+    text-transform: capitalize;
+    width: 192px;
+}
+
+/* emp plus */
+.heading2 {
+    color: #1A1A1A;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 55px;
+    /* 229.167% */
+    /* width: 184px; */
+    /* margin: auto; */
+    margin-top: 59px;
+}
+
+.check2 {
+    width: 15px;
+    height: 220px;
+    flex-shrink: 0;
+    line-height: 56px;
+    margin-top: 11px;
+    /* margin: auto; */
+    margin-right: auto;
+    margin-left: 81px;
+}
+
+
